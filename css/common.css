@@ -30,3 +30,13 @@ button {
   flex-wrap: wrap;
   justify-content: space-around;  
 }
+
+
+
+.valid { 
+  border-color: #4caf50;
+}
+
+.invalid {
+  border-color: #f44336;
+}
