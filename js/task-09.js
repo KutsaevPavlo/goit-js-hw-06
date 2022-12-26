@@ -29,8 +29,9 @@ const getColor = document.querySelector('.change-color');
 const spanColor = document.querySelector('.color');
 
 getColor.addEventListener("click", () => {
-    spanColor.textContent = getRandomHexColor();
-    bodyEl.style.backgroundColor  = getRandomHexColor();
+    const color = getRandomHexColor();
+    spanColor.textContent = color;
+    bodyEl.style.backgroundColor  = color;
   }
   );
 
